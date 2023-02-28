@@ -28,6 +28,12 @@ export default function Contact() {
             required
           />
           <input
+            name="phone"
+            type="phone"
+            placeholder="Ihre-phone-nummer"
+            required
+          />
+          <input
             name="subject"
             type="text"
             placeholder="Betreff/Titel der Nachricht"
