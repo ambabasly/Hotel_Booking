@@ -18,13 +18,14 @@ export const Footer = () => {
         <div data-aos="fade-up">
           <h3>Round d Clock Suite </h3>
           <p>
-            <strong>Round d clock Suite</strong> ist die Heimat einer erstaunlichen Erfahrung!
-            Wir sind stolz darauf, mit über einer Million positiver Bewertungen
-            sowohl offline als auch online von unseren Kunden die Besten zu
-            sein.
+            <strong>Round d clock Suite</strong> ist die Heimat einer
+            erstaunlichen Erfahrung! Wir sind stolz darauf, mit über einer
+            Million positiver Bewertungen sowohl offline als auch online von
+            unseren Kunden die Besten zu sein.
           </p>
           <p>
-            Der beste Ort, an dem man sein kann, um eine tolle Zeit in <strong>Diusburg </strong>
+            Der beste Ort, an dem man sein kann, um eine tolle Zeit in{" "}
+            <strong>Diusburg </strong>
             zu haben!
           </p>
         </div>
