@@ -1,0 +1,27 @@
+#services{
+    background-color: $dark;
+    padding-block: $l-pad;
+    margin-block: $l-margin;
+
+    .services{
+        width: 80%;
+        color: $default;
+        text-align: center;
+        margin: auto;
+
+        h2{
+            margin-bottom: 2rem;
+        }
+
+        .card--section{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+
+            @include mobile{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+header{
+    background-image: url('/header4.jpg');
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:darken;
+    @include flex-col;
+
+
+
+    div{
+        text-align: center;
+        line-height: 2;
+
+        h1{
+            font-size: 3.5rem;
+            color: $secondary;
+            text-align: center;
+            text-shadow: 5px 5px $dark;
+
+            @include mobile{
+                font-size: 2rem;
+                text-shadow: 3px 3px $dark;
+            }
+        }
+
+        h2{
+            font-size: 1.8rem;
+            color: #fff;
+            text-shadow: 2px 2px $dark;
+
+            @include mobile{
+                font-size: 1.2rem;
+            }
+        }
+
+        button{
+            margin-top: 3rem !important;
+            padding: 1rem 2rem;
+            @include flex-row;
+            justify-content: space-between;
+            box-shadow: -2px -2px $default;
+        }
+    }
+}

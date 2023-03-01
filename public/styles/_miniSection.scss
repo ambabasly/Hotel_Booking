@@ -1,0 +1,26 @@
+#miniSection{
+    background-color: $dark;
+    padding-block: 4rem;
+    margin-block: 3rem;
+
+    .mini--section{
+        width: 80%;
+        @include flex-col;
+        flex:1;
+
+        h2{
+            color: $default;
+        }
+
+        button{
+            @include flex-row;
+            background-color: $default;
+            color: $dark;
+        }
+
+        .socials{
+            @include flex-row;
+            gap: 2rem;
+        }
+    }
+}

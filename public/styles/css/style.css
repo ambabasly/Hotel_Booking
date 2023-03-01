@@ -7,7 +7,6 @@ a {
 h1 {
   font-size: 3.5rem;
   color: #1B201E;
-  text-align: left;
 }
 @media only screen and (max-width: 800px) {
   h1 {

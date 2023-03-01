@@ -1,0 +1,71 @@
+section{
+    padding-block: 4rem 1rem;
+    margin-block: 4rem;
+
+    @include mobile{
+        padding-block: 2rem;
+        margin-block: 2rem;
+    }
+    
+    #section--right{
+        margin: auto;
+        width: 80%;
+        gap: 1rem;
+        line-height: 1.7;
+        @include flex-row; 
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+        div{
+            flex: 1;
+        }
+
+        @include mobile{
+            width: 90%;
+            flex-direction: column;
+        }
+
+        h1{
+            font-size: 2.5rem;
+
+            @include mobile{
+                font-size: 1.5rem;
+            }
+        }
+
+        p{
+            width: 80%;
+
+            @include mobile{
+                width: 100%
+            }
+        }
+
+        .notes{
+            @include flex-col;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+
+        img{
+            border-radius: 2rem;
+            width: 80%;
+            margin: auto;
+
+            @include mobile{
+                width: 100%;
+            }
+        }
+    }
+
+    #section--left{
+        @extend #section--right;
+        flex-direction: row-reverse;
+
+        @include mobile{
+            width: 90%;
+            flex-direction: column;
+        }
+    }
+}
